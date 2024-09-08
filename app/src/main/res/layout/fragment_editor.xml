@@ -146,7 +146,12 @@
             <FrameLayout
                 android:id="@+id/drawer_editor_left_fragment_container"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent" >
+      <androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/recyclerview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+		</FrameLayout>
 
         </LinearLayout>
 
